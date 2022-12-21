@@ -1,38 +1,95 @@
 .App {
-  text-align: center;
+  background-color: #101224;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.commonBtn {
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #0076FF;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 8px 30px;
+  border-radius: 20px;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.commonBtn:hover {
+  box-shadow: 1px -2px 35px -7px rgba(0, 119, 255, 0.712);
+  -webkit-box-shadow: 1px -2px 35px -7px rgba(0, 119, 255, 0.712);
+  -moz-box-shadow: 1px -2px 35px -7px rgba(0, 119, 255, 0.712);
+
+}
+
+.App .MySize {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* scroll bar  */
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #101224;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0076FF;
+  border-radius: 10px;
+}
+
+
+
+/* responsive for mobile  */
+@media screen and (max-width:768px) {
+  .MainArea .mainAreaInner .mainAreaLeft h2 {
+    font-size: 45px !important;
+    font-weight: 700;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .hostingPlanInnerTop h2 {
+    width: 100% !important;
   }
-  to {
-    transform: rotate(360deg);
+  .priceCard{
+    height:auto !important;
+  }
+  .hostingPlanInnerTop .monthlyPlanTextOnly{
+    width:90% !important;
+  }
+  .hostingPlanInnerTop h2{
+    font-size: 40px !important;
+  }
+  .serverLocation .mapArea{
+    height:250px !important;
+  }
+  .serverLocation .aus{
+    left:80% !important;
+  }
+  footer .copyright .copyrightInner{
+    display: initial !important;
+    text-align: center;
   }
 }

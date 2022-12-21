@@ -1,0 +1,23 @@
+.sliderArea {
+    background-color: #101224;
+    box-shadow: 0px -17px 70px 53px rgba(16, 18, 36, 0.918);
+    -webkit-box-shadow: 0px -17px 70px 53px rgba(16, 18, 36, 1);
+    -moz-box-shadow: 0px -17px 70px 53px rgba(16, 18, 36, 0.75);
+
+}
+
+.sliderAreaInner {
+    color:rgba(16, 18, 36, 0.918);
+    padding: 30px 0;
+    text-align: center;
+    
+}
+
+.sliderAreaInner img {
+    width: 80%;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+.sliderAreaInner img:hover {
+    opacity: 1;
+}

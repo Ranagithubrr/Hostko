@@ -1,0 +1,63 @@
+.memberSlide{
+    background-color: #282A3A;
+    color:#fff;
+    padding:60px 20px 20px 40px;
+    border-radius: 10px;
+    position: relative;
+    width:95%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.memberSlide:hover{
+    cursor:grab;
+}
+.memberSlide .QuoteIcon{
+    position: absolute;
+    top:-50px;
+    left:-45px;
+    height:100px;
+    width:100px;
+    background-color: #0076FF;
+    color:#fff;
+    border-radius: 10px;
+}
+.memberSlide .QuoteIcon span{
+    position: absolute;
+    right: 17px;
+    bottom: 13px;
+    font-size: 20px;
+}
+.memberSlide .hosMemberName{
+   font-size: 22px;
+   font-weight: 600;
+}
+.memberSlide p{
+   font-size: 16px;
+   color: #9c9a9a;
+}
+.memberSlide .memberSlideBottom{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.memberSlide .memberSlideBottom .imageBox{
+   height:50px;
+   width:50px;
+   background-color: #fff;
+   border-radius: 50%;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+.memberSlide .memberSlideBottom .memberName{
+   font-size: 15px;
+   margin: 0;
+   margin-left: 5px;
+   color:#e2dddd;
+}
+.MembersSlider .slick-slider .slick-dots {
+    margin-top: 20px;
+}
+.MembersSlider .slick-slider .slick-dots li button::before{
+    color:#0076FF;
+    font-size: 8px;
+}

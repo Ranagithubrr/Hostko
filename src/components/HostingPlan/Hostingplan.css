@@ -1,0 +1,69 @@
+.hostingPlan{
+    background-color: #101224;
+}
+.hostingPlan .hostingPlanInner{
+    color:#fff;
+}
+.hostingPlanInnerTop .hostingPlanText{
+    background-color: #0D2650;
+    font-weight: 500;
+    color:#357af1;
+    display: inline;
+    padding:4px 12px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.hostingPlanInnerTop h2{
+    font-size: 45px;
+    width:60%;
+    margin: 10px auto;
+    color:#fff;
+}
+.hostingPlanInnerTop h2 span{
+    color:#318af7;
+}
+.hostingPlanInnerTop .monthlyPlan{
+    color:#7f8081;
+    font-weight: 500;
+    font-size: 18px;
+}
+.hostingPlanInnerTop .monthlyPlanTextOnly{
+    color:#7f8081;
+    font-weight: 500;
+    font-size: 18px;
+    width:40%;
+}
+.hostingPlan .hostingPlanInner .hostingPlanInnerTop .switch{
+   height:20px;
+   width:35px;
+   background-color: #2b2b2b;
+   /* display: inline; */
+   border-radius: 20px;
+   position:relative;
+   margin:0 10px;
+   cursor: pointer;
+}
+.hostingPlanInnerTop .switch .switchBtn{
+   height:18px;
+   width:17px;
+   background-color: #afacac;
+   /* display: inline; */
+   border-radius: 20px;
+   position:absolute;
+   top:1px;
+   bottom:0;
+   left: 0;
+   transition: 0.3s ease;
+}
+.hostingPlanInnerTop .switch .rightBtn{
+   right: 0 !important;
+   left:50%;
+   /* transition: 1s ease; */
+}
+.hostingPlanInnerTop .mothYearPlan{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

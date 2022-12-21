@@ -1,0 +1,34 @@
+.MoneyBack{
+    background-color: #15182D;
+    margin-top: 150px;
+}
+.MoneyBack .moneyBackInner{
+    /* height:200px; */
+    position: relative  ;
+    padding:20px 0;
+}
+.MoneyBack .moneyBackInner .ladyImg{
+    position: absolute;
+    top:0;
+    width:35%;
+    margin-top: -82px;
+}
+.MoneyBack .moneyBackInner .gurranty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    height:200px;
+}
+.MoneyBack .moneyBackInner .gurranty h2{
+   color:#fff;
+   font-size: 40px;
+   font-weight: 700;
+}
+.MoneyBack .moneyBackInner .gurranty h2 span{
+   color:#1C6DFC;
+}
+.MoneyBack .moneyBackInner .getStarted p{
+    font-size: 16px;
+    color: #9c9a9a;
+}

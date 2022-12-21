@@ -1,0 +1,86 @@
+.MainArea {
+    min-height: 100vh;
+    background-image: url('../../Images/background.jpg');
+    padding-top: 8rem;
+}
+
+
+.MainArea .mainAreaInner .mainAreaLeft h4 {
+    color: #0076FF;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+.MainArea .mainAreaInner .mainAreaLeft h2 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.MainArea .mainAreaInner .mainAreaLeft p {
+    color: #a5a4a4;
+    font-size: 16px;
+}
+.MainArea .mainAreaInner .mainAreaLeft .counterArea{
+    display: flex;
+}
+.MainArea .mainAreaInner .mainAreaLeft .counterArea .counterBox{
+    border:1px solid #929292b7;
+    width:70px;
+    height: 70px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    margin-right: 20px;
+}
+.MainArea .mainAreaInner .mainAreaLeft .counterArea h4{
+    margin:0;
+    color:#fff;
+    display: block !important;
+}
+
+.MainArea .mainAreaInner .mainAreaRight .eightyPercent {
+    font-size: 16rem;
+    color:#fff;
+}
+.MainArea .mainAreaInner .mainAreaRight .eightyPercent span{
+  position: relative;;
+}
+.MainArea .mainAreaInner .mainAreaRight .eightyPercent .percent{
+    position:absolute;
+    top:85px;
+    right:0;
+    font-size: 35px;
+    font-weight: 700;
+    height:55px;
+    width:55px;
+    background:#0076FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MainArea .mainAreaInner .mainAreaRight .off {
+    font-size: 10rem;
+    color:rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 1px rgba(255, 255, 255, .5);
+    text-transform: uppercase;
+    margin-top:-5rem;
+}
+.MainArea .mainAreaInner .mainAreaRight h5 {
+  color:#fff;
+  font-size: 22px;
+  margin-top: -1rem;
+}
+.MainArea .mainAreaInner .offerClosed{
+  background-color: red;
+  color:#fff;
+  font-weight: 600;
+  padding:10px;
+  border-radius: 5px;
+  display: inline-block;
+  /* margin: 20px 0; */
+}

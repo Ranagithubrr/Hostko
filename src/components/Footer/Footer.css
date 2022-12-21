@@ -1,0 +1,110 @@
+footer .footerInner .footerLogo{
+    display: flex;
+    align-items: center;
+}
+footer .footerInner .footerLogo h2{
+    display: inline;
+    color: #0076FF;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.5mm;
+    margin-left: 4px;
+}
+footer .footerInner .footerLogo h2 span{
+   color:#fff;
+}
+footer .footerInner p{
+   color:#9c9a9a;
+   font-weight: 500;
+   font-size: 15px;
+}
+footer .footerInner h4{
+   color:#e1e1e1;
+   font-weight: 600;
+   font-size: 20px;
+}
+footer .acceptPayments .paymentImageBoxes{
+    padding: 0 5px;
+ }
+footer .acceptPayments .paymentImageBoxes div{
+   background-color: #fff;
+}
+footer .HostingAndCompany h4{
+   color:#e1e1e1;
+}
+footer .HostingAndCompany a{
+   color:#9c9a9a;
+   font-weight: 500;
+   text-decoration: none;
+   padding:5px 0;
+   display: block;
+   font-size: 15px;
+   transition: 0.3s ease;
+}
+footer .HostingAndCompany a:hover{
+   color:#0076FF;
+}
+footer .emailBox{
+   height:35px;
+   width:100%;
+   background-color: #2E3342;
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   overflow: hidden;
+}
+footer .emailBox input{
+   background: none;
+   border:none;
+   outline:none;
+   color:#fcfcfc;
+   width:80%;
+   padding:0 10px;
+}
+footer .emailBox input::placeholder{
+   
+   color:#e1e1e1;
+   font-weight: 500;
+  
+}
+footer .emailBox button{    
+    background-color: #4362F8;  
+    color:#ffffff;
+    font-weight: 600;
+    width:20%;
+    height:100%;
+    border:none;
+}
+footer .socialIcons a{    
+    background-color: rgba(92, 92, 92, 0.349);  
+    color:#4362f8;
+    padding:7px 10px;
+    margin-right: 8px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+footer .socialIcons a:hover{    
+    background-color:#fcfcfc;
+}
+footer .copyright{    
+    border-top: 1px solid rgba(104, 104, 104, 0.288);
+
+}
+footer .copyright .copyrightInner{    
+    display: flex;
+    justify-content: space-between;
+
+}
+footer .copyright .copyrightInner p{    
+    color: #9c9a9a;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+footer .copyright .copyrightInner a{    
+    color: #9c9a9a;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+
+}

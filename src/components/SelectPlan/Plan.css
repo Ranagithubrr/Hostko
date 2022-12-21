@@ -1,0 +1,74 @@
+.SelectPlan{
+    color:#fff;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+.SelectPlan .PlanNo{
+    height:45px;
+    width:45px;
+    border-radius: 10px;
+    background-color: #4362f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+    position:relative;
+    z-index:1;
+}
+.SelectPlan  .RightBorder{
+    position:absolute;
+    top:50%;
+    left:100%;
+    height:1px;
+    width:250px;
+    background-color: #4362f8;
+}
+.SelectPlan  .PlanBox h4{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin:15px 0;
+}
+.SelectPlan  .PlanBox p{
+    font-size: 16px;
+    color: #9c9a9a;
+    font-weight: 400;
+    width:80%;
+}
+
+
+@media screen and (max-width:768px) {
+    .SelectPlan{
+        display: flex;
+        padding: 20px 0;
+    }
+    .SelectPlan .PlanNo{
+        width:15%;
+    }
+    .SelectPlan .PlanNo .RightBorder{
+        top:0;
+        left:50%;
+        right:50%;
+        height:250px;
+        width:1px;
+        z-index:-1;
+    }
+    .SelectPlan .PlanBox{
+        width:85%;
+        margin-bottom: 0 !important;
+        padding:0;
+        padding-left: 10px;
+    }
+    .SelectPlan .PlanBox p{
+        width:100%;
+        font-weight: 500;
+        
+    }
+    .SelectPlan .PlanBox h4{
+        margin:0;   
+    }
+    .SelectPlan .PlanBox p{
+        padding-top: 10px;
+    }
+}
